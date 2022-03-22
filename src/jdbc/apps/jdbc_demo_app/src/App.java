@@ -1,11 +1,11 @@
 import java.sql.*;
-import java.util.Arrays;
+import java.util.Arrays
 
 public class App {
     public static void main(String[] args) throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        final String url = "jdbc:mysql://localhost:3307/jdbc_demo";
+        final String url = "jdbc:mysql://localhost:3306/jdbc_demo";
         final String username = "root";
         final String password = "password";
 
